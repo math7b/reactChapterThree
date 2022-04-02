@@ -1,6 +1,5 @@
 {
   "name": "ignews",
-  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +8,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.24.0",
+    "axios": "^0.26.1",
+    "faunadb": "^4.5.2",
     "next": "12.0.10",
+    "next-auth": "^4.2.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.3.1",
